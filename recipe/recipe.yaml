@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: lazyslide-models
-  version: "0.0.4"
+  version: "0.1.0"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/lazyslide_models-${{ version }}.tar.gz
-  sha256: b5e98cc90969e3e247a2c40b5eb0c7425707b8310775f9f9da1f40f70194cf20
+  sha256: 9858fb596cad11d58461f052c5c18edefafd777177cf4093569872319d2e3447
 
 build:
   number: 0
